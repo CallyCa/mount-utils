@@ -1,0 +1,41 @@
+{
+  "name": "mount-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm run test -- -w",
+    "clean": "rm -rf coverage",
+    "coverage": "npm run clean && istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callyca/mount-utils.git"
+  },
+  "keywords": [
+    "NodeOS",
+    "mount",
+    "utils"
+  ],
+  "author": "CallyCa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callyca/mount-utils/issues"
+  },
+  "homepage": "https://github.com/callyca/mount-utils",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "mount-node": "gitlab:NodeOS/boot-loader/mount.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "errno-codes": "^1.0.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "proxyquire": "^1.7.10",
+    "rimraf": "^2.5.4",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0"
+  }
+}
