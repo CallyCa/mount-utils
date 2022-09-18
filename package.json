@@ -26,7 +26,7 @@
   "homepage": "https://github.com/callyca/mount-utils",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "mount-node": "gitlab:NodeOS/boot-loader/mount.git"
+    "mount-node": "github:CallyCa/mount.git"
   },
   "devDependencies": {
     "chai": "^3.5.0",
